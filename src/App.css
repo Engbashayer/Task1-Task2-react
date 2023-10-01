@@ -2,9 +2,34 @@
   text-align: center;
 }
 
+img {
+  width: 150px;
+  height: 200px;
+}
+
+.productL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.card {
+  background-color: blue;
+  border-radius: 20px;
+  border: black;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
