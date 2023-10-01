@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>My Book Store</h1>
+      <h4>this is the best book store</h4>
+      <img src="https://media.istockphoto.com/id/963186372/vector/flat-design-concept-online-books-store-hand-pick-book-from-internet-device-vector-illustrate.jpg?s=612x612&w=0&k=20&c=Actp37AZcbCtQm_mnFhpwBIYoHrYzrRMbY8iFFMjLIQ="></img>
     </div>
   );
 }
